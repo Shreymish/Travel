@@ -16,7 +16,7 @@ const DestinationList = () => {
                 </p>
             </div>
 
-            {/* Destinations Grid */}
+            {/* Destinations Card */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {traveldata.map((destination) => (
                     <Destination 
@@ -24,28 +24,6 @@ const DestinationList = () => {
                         destination={destination} 
                     />
                 ))}
-            </div>
-
-            {/* Stats Section */}
-            <div className="mt-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl p-8 text-white">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                    <div>
-                        <h3 className="text-3xl font-bold mb-2">{traveldata.length}+</h3>
-                        <p className="text-blue-100">Amazing Destinations</p>
-                    </div>
-                    <div>
-                        <h3 className="text-3xl font-bold mb-2">
-                            {new Set(traveldata.map(d => d.state)).size}+
-                        </h3>
-                        <p className="text-blue-100">States Covered</p>
-                    </div>
-                    <div>
-                        <h3 className="text-3xl font-bold mb-2">
-                            {new Set(traveldata.map(d => d.category)).size}+
-                        </h3>
-                        <p className="text-blue-100">Categories</p>
-                    </div>
-                </div>
             </div>
         </div>
     )
