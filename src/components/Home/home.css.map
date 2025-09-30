@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "file": "home.css",
-  "sources": ["Home.scss"],
-  "mappings": "AAAA,KAASA,KAAK,CAAC,gCAAgC,CAC7C,KAASA,GAAG,CAAC,gBAAgB,CAAC;",
-  "sourcesContent": [".home { padding:2rem 1rem; text-align:center; }\n.home h2 { margin:0 0 .75rem; }\n"],
-  "names": []
-}

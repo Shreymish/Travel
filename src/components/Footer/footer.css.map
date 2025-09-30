@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "file": "footer.css",
-  "sources": ["Footer.scss"],
-  "mappings": "AAAA,OAAQA,OAAO,CAAC,2EAA2E,CACvF,OAAQA,CAAC,CAAC,QAAQ,CAAC,CAAC;",
-  "sourcesContent": [".footer { margin-top:3rem; padding:1.5rem 0; text-align:center; font-size:.85rem; color:#334155; }\n.footer p { margin:0; }\n"],
-  "names": []
-}
