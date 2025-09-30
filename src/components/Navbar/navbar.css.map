@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "navbar.css",
+  "sources": ["Navbar.scss"],
+  "mappings": "AAAA,OAASA,OAAO,CAAC,oFAAoF,CAChG,OAAQA,UAAU,CAAC,oBAAoB,CAClC,OAAQA,UAAU,CAAC,eAAe,CAChC,KAAMA,KAAK,CAAC,MAAM,CAAC,CAChB,MAAOA,MAAM,CAAC,YAAY,CAAC,CAChC,KAAMA,IAAI,CAAC,MAAM,CAAC;",
+  "sourcesContent": [".navbar { display:flex; align-items:center; justify-content:space-between; padding:.75rem 1rem; background:#1e293b; color:#f1f5f9; }\n.nav-links { list-style:none; display:flex; gap:1rem; margin:0; padding:0; }\n.nav-links a { color:#f1f5f9; text-decoration:none; font-size:.95rem; }\n.nav-links a:hover { color:#60a5fa; }\n.logo { margin:0; font-size:1.15rem; }\n"],
+  "names": []
+}

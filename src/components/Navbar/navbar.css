@@ -1,0 +1,7 @@
+/* Generated CSS from Navbar.scss (manual static copy) */
+.navbar { display:flex; align-items:center; justify-content:space-between; padding:.75rem 1rem; background:#1e293b; color:#f1f5f9; }
+.nav-links { list-style:none; display:flex; gap:1rem; margin:0; padding:0; }
+.nav-links a { color:#f1f5f9; text-decoration:none; font-size:.95rem; }
+.nav-links a:hover { color:#60a5fa; }
+.logo { margin:0; font-size:1.15rem; }
+/*# sourceMappingURL=navbar.css.map */

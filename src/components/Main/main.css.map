@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": ["Main.scss"],
+  "mappings": "AAAA,KAASA,KAAK,CAAC,mCAAmC,CAChD,KAASA,GAAG,CAAC,gBAAgB,CAAC;",
+  "sourcesContent": [".main { padding:2rem 1rem; text-align:center; background:#f8fafc; }\n.main h2 { margin:0 0 .75rem; }\n"],
+  "names": []
+}
