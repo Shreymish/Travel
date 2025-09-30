@@ -13,8 +13,9 @@ const Destination = ({ destination }) => {
             </div>
         )
     }
-
-    const { name, state, description, image, rating, price, category, bestTimeToVisit, link } = destination
+    
+    // props-properties
+    const { name, state,description, image, rating, price, category, bestTimeToVisit, link } = destination
 
     return (
         <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden w-full max-w-sm mx-auto">

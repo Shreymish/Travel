@@ -1,4 +1,4 @@
-export const destinations = [
+export const traveldata = [
   {
     id: 1,
     name: "Taj Mahal",
@@ -9,7 +9,7 @@ export const destinations = [
     price: "₹50",
     category: "Historical",
     bestTimeToVisit: "October to March",
-    link: "https://www.tajmahal.gov.in/"
+    link: "https://www.google.com/maps/@27.1733511,78.042109,3a,90y,1.01h,86.19t/data=!3m8!1e1!3m6!1sypwvZafR9EHGbeK0JPItLg!2e0!3e5!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D3.812739726027374%26panoid%3DypwvZafR9EHGbeK0JPItLg%26yaw%3D1.0101369863013692!7i13312!8i6656?hl=en//www.google.com/maps/preview/@27.173385,78.042122,3a,75y,1.38h,89.29t/data=!3m5!1e1!3m3!1sypwvZafR9EHGbeK0JPItLg!2e0!3e5?hl=en&entry=ttu&g_ep=EgoyMDI1MDkyNC4wIKXMDSoASAFQAw%3D%3D"
   },
   {
     id: 2,
